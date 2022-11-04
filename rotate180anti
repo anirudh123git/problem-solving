@@ -1,0 +1,42 @@
+#include<bits/stdc++.h>
+using namespace std;
+void rotateaniti180(int a[][3],int m,int n){
+    
+cout<<"matrix after 180 degree anti clockwise rotation is:"<<endl;
+for(int i=2;i>=0;i--){
+    for(int j=2;j>=0;j--){
+        
+        cout<<a[i][j];
+        
+    }
+    cout<<"\n";
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+int main(){
+    cout<<"enter matrix:"<<endl;
+    int a[3][3];
+    for(int i=0;i<3;i++){
+        for(int j=0;j<3;j++){
+            
+            cin>>a[i][j];
+            
+        }
+    }
+    
+    
+    rotateaniti180(a,3,3);
+    
+    
+    
+    return 0;
+}
